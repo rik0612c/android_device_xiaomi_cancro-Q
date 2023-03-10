@@ -9,6 +9,8 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 # System properties
 -include $(DEVICE_PATH)/system_prop.mk
 
+-include vendor/extra/product.mk
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/diracmobile.config:system/vendor/etc/diracmobile.config \

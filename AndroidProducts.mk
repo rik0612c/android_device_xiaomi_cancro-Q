@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cancro.mk
+    $(LOCAL_DIR)/rr_cancro.mk
+    
+COMMON_LUNCH_CHOICES := \
+    rr_cancro-userdebug \
+    rr_cancro-eng
